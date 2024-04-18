@@ -1,0 +1,25 @@
+# ignore node modules and neccessary yarn files
+node_modules
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+.npm
+
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+.env
+
+# misc
+.DS_Store
+.idea
+.vscode
